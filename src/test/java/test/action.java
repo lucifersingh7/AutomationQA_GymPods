@@ -31,6 +31,20 @@ public class action {
 		pages.signup.firstName(driver).sendKeys("First Name");
 		pages.signup.lastName(driver).sendKeys("Last name");
 		pages.signup.mobileNumber(driver).sendKeys("8459612545");
+		pages.signup.address(driver).sendKeys("125, Canning Street");
+		pages.signup.postCode(driver).sendKeys("10001");
+		pages.signup.emergencyName(driver).sendKeys("Sam");
+		pages.signup.emergencyNumber(driver).sendKeys("584524152");
+		pages.signup.password(driver).sendKeys("Sahil123@");
+		pages.signup.confirmPassword(driver).sendKeys("Sahil123@");
+		pages.signup.nextBtn(driver).click();
+		
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		
 	}
