@@ -52,4 +52,38 @@ public class signup {
 		element = driver.findElement(By.xpath("//button[normalize-space()='Next']"));
 		return element;
 	}
+	
+	public static WebElement sliderOne(WebDriver driver) {
+		element = driver.findElement(By.xpath("(//span[@class='slider round'])[1]"));
+		return element ;
+	}
+	
+	public static WebElement sliderTwo(WebDriver driver) {
+		element = driver.findElement(By.xpath("(//span[@class='slider round'])[2]"));
+		return element;
+	}	
+	public static WebElement sliderThree(WebDriver driver) {
+		element = driver.findElement(By.xpath("(//span[@class='slider round'])[3]"));
+		return element;
+	}
+	public static WebElement sliderFour(WebDriver driver) {
+		element = driver.findElement(By.xpath("(//span[@class='slider round'])[4]"));
+		return element;
+	}
+	public static WebElement sliderFive(WebDriver driver) {
+		element = driver.findElement(By.xpath("(//span[@class='slider round'])[5]"));
+		return element;
+	}
+	public static WebElement sliderSix(WebDriver driver) {
+		element = driver.findElement(By.xpath("(//span[@class='slider round'])[6]"));
+		return element;
+	}
+	public static WebElement sliderSeven(WebDriver driver) {
+		element = driver.findElement(By.xpath("(//span[@class='slider round'])[7]"));
+		return element;
+	}
+	public static WebElement joinBtn(WebDriver driver) {
+		element = driver.findElement(By.xpath("//button[@type='submit']"));
+		return element;
+	}
 }	
